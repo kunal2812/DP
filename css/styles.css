@@ -1,0 +1,77 @@
+.navbar{
+	min-height: 100px;
+	background:#fff;
+}
+.navbar-brand{
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-left: 50px;
+}
+.btn-social-icon{
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.jumbotron{
+	min-height: 45vw;
+	margin-top: 100px;
+	background: black;
+	color: floralwhite; 
+}
+.nav-item{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.py-2{
+	margin-right: 50px;
+}
+.img-thumbnail{
+	height:30vw;
+	width: 23vw;
+}
+body{
+	z-index:0;
+}
+*{
+	font-family: 'Lato', sans-serif;
+}
+.pd{
+	margin-top: 3vw;
+}
+.glow {
+  font-size: 4vw;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.glow-main{
+	padding-left: 10px;
+	font-size: 2vw;
+	font-style: 
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+  -webkit-animation: glow-main 1s ease-in-out infinite alternate;
+  -moz-animation: glow-main 1s ease-in-out infinite alternate;
+  animation: glow-main 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+@-webkit-keyframes glow-main {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+  }
+}
