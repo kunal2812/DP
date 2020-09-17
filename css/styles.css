@@ -2,31 +2,74 @@
 	min-height: 100px;
 	background:#fff;
 }
+.container{
+  margin-left: 50px;
+}
 .navbar-brand{
 	font-size: 30px;
 	letter-spacing: 1px;
 	margin-left: 50px;
 }
+.page-header{
+  color:#fff;
+}
 .btn-social-icon{
 	padding-right: 25px;
 	padding-left: 25px;
 }
-.jumbotron{
-	min-height: 45vw;
+.me1{
+	min-height: 68vw;
 	margin-top: 100px;
-	background: black;
+	background-image: url("../img/bg4.jpg");
+  background-repeat: round;
 	color: floralwhite; 
+}
+.section1{
+  color:floralwhite;
 }
 .nav-item{
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.row{
+  margin-left:5px;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  text-align: center;
+}
+#footlink{
+  text-decoration: none;
+  color: black;
+}
 .py-2{
 	margin-right: 50px;
 }
-.img-thumbnail{
-	height:30vw;
-	width: 23vw;
+.txt-black{
+  color:#dedede;
+  margin-left:30vw;
+  margin-top: -45vw;
+}
+.img-filter {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+}
+.rounded-circle{
+	height:15vw;
+	width: 15vw;
+}
+#mekunal {
+  margin-top: 5vw;
+  margin-left: 7vw;
+}
+.under{
+  margin-top: 2vw;
+  margin-left: 7vw;
 }
 body{
 	z-index:0;
@@ -57,7 +100,10 @@ body{
   -moz-animation: glow-main 1s ease-in-out infinite alternate;
   animation: glow-main 1s ease-in-out infinite alternate;
 }
-
+.card-header{
+  color:floralwhite; 
+  background: black;
+}
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;

@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 	<title>Kunal Katiyar</title>
-	<!-- CSS only -->
+
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet"  href="node_modules/bootstrap-social/bootstrap-social.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -25,28 +26,22 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">Blog</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Interests
+        <a class="nav-link " href="#"><i class="fa fa-home"></i> Home<span class="sr-only">(current)</span></a>
+      </li>      
+      <li class="nav-item ">
+        <a class="nav-link  " href="#project"><i class="fa fa-book"></i>
+          Projects
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item " href="#">Action</a>
-          <a class="dropdown-item " href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link " href="#honours"><i class="fa fa-trophy"></i> Honours </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#resume"><i class="fa fa-file-text"></i> Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#contact" tabindex="-1" aria-disabled="true"><i class="fa fa-address-card"></i>  Contact</a>
       </li>
     </ul>
     <div class="col-12 col-sm-12 col-md-2 align-self-center">
@@ -58,26 +53,52 @@
      </div>
   </div>
 </nav>
-	<div class="jumbotron">
+	<div id="head" class="jumbotron me1">
 		<div class="row">
-			<div class="col-2">
-				<img class="img-fluid ml-6 img-thumbnail rounded float-left" src="img/me.jpeg">
-			</div>
-      <div class="col-10">
-        <div>
-        <h1 id="jumbotext" class="glow">Your interest in something does not require to be pro at it. </h1>
-        </div>
-      <div class="row mt-4">
+      <div class="row-content">
+			<div  class="col-12 col-sm-3">
         <div class="col-12">
-          <p class="glow-main">Your interests are after all not about your expertise but your likings.
-          </p>
+				<img id = "mekunal" class="rounded-circle float-left" src="img/me.jpg">
         </div>
-      </div>
-      <div class="row pd">
-        <div class="col-12 text-center">
-          <h2 style="font-size: 3vw;"> ~ KUNAL KATIYAR</h2>
+            <div class="row">
+          <div class="under text-center">
+        <h2>KUNAL KATIYAR</h2>
+        <h4 style="color: #dedede ;display:inline-block; white-space: nowrap; overflow: hidden;" >UNDERGRADUATE STUDENT</h4>
+        <h4><b>IIIT BHAGALPUR&ensp;<i class="fa fa-external-link"></i></b></h4>
         </div>
+        <div>
+          <h3 class="mt-4">INTERESTS</h3>
+          <ul style="color:#dedede;">
+              <li><h5>Computer Vision</h5></li>
+              <li><h5>Sequence Modelling</li>
+              <li><h5>Deep Learning</h5></li>
+              <li><h5>Algorithms</h5></li>
+          </ul>
+          <h3 class="mt-4">EXPERIENCE</h3>
+          <ul style="color:#dedede;">
+              <li><h5><b>Intellify &nbsp;<i class="fa fa-external-link"></i> &emsp; May, 2020 - June, 2020</b></h5></li>
+              <h5><b>Subject Matter Expert, Machine Learning</b></h5>
+              <h5 class="mt-4">Prepared a total of 200+ minutes machine learning video sessions plus the lecture notes for Intellify.</h5><h5 class="mb-4">
+              The video lectures and slides were based on topics such as Logistic Regression, Dimensionality Reduction, Neural Networks, Preprocessing Techniques and full Scikit - learn tutorial</h5>
+              <a href="#" style="color:#dedede; "><i class="fa fa-external-link"></i>&nbsp;<b>Link to Intellify's official Youtube channel</b></a><br>
+              <a href="#" style="color:#dedede; "><i class="fa fa-external-link"></i>&nbsp;<b>Link to full playlist</b></a>
+          </ul>
+        </div>
+        </div>
+			</div>
+      <div  class="col-12 col-sm-7 txt-black">
+        <h1 class="page-header mb-5">ABOUT ME</h1>
+        <h4 class="mb-3">I am a 2nd Year Mechatronics and AI undergraduate student with minor in Computer Science Engineering at Indian Institute of Information Technology, Bhagalpur. I like working on Deep Neural Networks and have a great interest in Computer Vision.</h4>
+        <h4 class="mb-3">I am quiet fascinated by Generative Adversial Networks and Deepfakes, though my knowledge pertaining them is limited.</h4>
+        <h4 class="mb-3">I also enjoy Front End Web Development since beauty of Front End can even be understood by non-coders.</h4>
+        <h4 class="mb-3">I have worked as a Subject Matter Expert in Machine Learning with Intellify which is an IIT -Delhi based startup that aims at providing quality learning content to NGO's and government schools. During my internship period I prepared video lectures plus the lecture slides on the topics such as Predictive Modelling, Logistic Regression, Dimensionality Reduction, Regularization, Neural Networks, Preprocessing Techniques and also full Scikit - learn tutorial. The videos which have been uploaded till date on Intellify's youtube channel have already gathered innumerable views and load of appreciating comments.</h4>
+        <h4 class="mb-3">Apart from these things, I like being punctual and always finishing whatever I start. I am quiet flexible and can easily get along well with all people. I am a good listener and can confidently communicate my ideas too when needed.</h4>
       </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-3">
+        
       </div>
     </div>
 	</div>
@@ -88,13 +109,81 @@
 	</div>
 </div>
 
-	<div class="container">
-		
+	<div style="margin-left: 30px;margin-right: 50px;">
+    
+    <div class="row row-content jumbotron" id="project">
+      <h2>PROJECTS</h2>
+    </div>
+    <div class = "row row-content mt-4">
+      <div>
+        <h2><b>Rock… Paper… Scissors &nbsp;<i class="fa fa-external-link"></i> &emsp;August, 2020 - ongoing</b></h2>
+        <ul class="mt-3">
+          <li><h3>Implemented an AI based Rock Paper Scissors game using Tensorflow that predicts from action of user’s hand  if it’s a rock, paper or scissor</h3></li>
+          <li><h3>Developed a 50 layer Residual Network for identifying action of user's hand using ideas from the original research paper with a documentation summarising the idea, the implementation and usage details</h3></li>
+          <li><h3>Currently deployment is in process.</h3></li>
+        </ul>
+      </div>
+      <div class="mt-4 mb-4">
+        <h2><b>CrazyCoder - Webathon Project &nbsp;<i class="fa fa-external-link"></i> &emsp;February, 2020</b></h2>
+        <ul class="mt-3">
+          <li><h3>Developed the front - end of an educational website within a span of 7 days in an institute level webathon organised by our seniors with the help of Progate, which aimed at helping the aspiring developers and beginners, who are learning to code</h3></li>
+          <li><h3>Used HTML, CSS, Javascript and Bootstrap to create eye pleasing website components</h3></li>
+        </ul>
+      </div>
+    </div>
+    <div id="honours" class="row row-content jumbotron bg-dark section1">
+      <h2>HONOURS AND RESPONSIBILITIES</h2>
+    </div>
+    <div class = "row row-content mb-4">
+      <div>
+        <ul class="mt-4" >
+          <li><h3>99.157 percentile in JEE Main 2020</h3></li>
+          <li><h3>4th in institute level Progate’s ‘Week of Learning’ Webathon at IIIT Bhagalpur</h3></li>
+          <li><h3>Co - leader of Photography Committee of college’s Sports Fest, Udyatva’20</h3></li>
+          <li><h3>Member of Social Media Committee of IIIT Bhagalpur's Techfest Shashwat'20</h3></li>
+          <li><h3>Finalist of innovation based case study competition ‘Koan’ organised by Social Service Council IIT - BHU</h3></li>
+          <li><h3>Volunteered for 40 days under PAN India Curriculum Development Project by Intellify</h3></li>
+          <li><h3>3rd best Campus Ambassdor of Jagriti’20, organised by Social Service Council IIT - BHU</h3></li>
+          <li><h3>1st in Poster Making Competition under ‘Ek Bharat Shreshtha Bharat’ that aimed at promoting environmental cleanliness and general awareness</h3></li>
+          <li><h3>Active in various college’s Developer Student Clubs such as - AI/ML Club, Robotics and IoT Club</h3></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div id="resume" class="row row-content jumbotron">
+      <h2>RESUME</h2>
+    </div>
+    <div class = "row row-content mt-4 mb-4">
+      <div>
+        <h3>Click <a href="#">here</a> to download my latest resume</h3>
+      </div>
+    </div>
+    <div id="contact" class="row row-content jumbotron bg-dark section1">
+      <h2>CONTACT</h2>
+    </div>
+    <div class = "row row-content mt-4 mb-4">
+      <div>
+        <ul>
+          <li ><h3 ><a style="color: black;" href="mailto:kunalkatiyar50@gmail.com"><i class="fa fa-envelope"></i>&emsp;kunalkatiyar50@gmail.com</h3></a></li>
+          <li><h3><a style="color: black;" href=""><i class="fa fa-phone"></i>&emsp;+91 9305021235</a></h3></li>
+          <li><h3><a style="color: black;" href=""><i class="fa fa-linkedin">&emsp;www.linkedin.com/in/kunal0403</i></a></h3></li>
+          <li><h3><i class="fa fa-map-marker"></i>&emsp;813210, Bhagalpur, Bihar, India</h3></li>
+        </ul>
+      </div>
+    </div>
 	</div>
+
+  <footer class="footer" style="background-color: #ededed">
+    <div>
+      <h4>Interests are merely what you want to do, not what you are good at.</h4>
+      <h5><a id="footlink" href="#head">Back to top <i class="fa fa-angle-up" aria-hidden="true"></i></a></h5>
+    </div>
+  </footer>
 
 
 
 	<!-- JS, Popper.js, and jQuery -->
+  <script src="dynamic-menu.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
