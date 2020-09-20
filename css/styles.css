@@ -142,7 +142,116 @@ h1{
 .text-adj{
   width: 200%;
 }
+.icon2{
+  margin-top: -33px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.icon3{
+  margin-top: -57px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
 .icons{
-  display: inline-block;
+  margin-top: 25px;
+  margin-left: 29%;
+}
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .img-center {
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+.under{
+  margin-left: 300px;
+  margin-top: 25px;
+}
+#about-me {
+  margin-left: 340px;
+  margin-top: -870px;
+}
+.icons{
+  margin-right:500px;
+}
+
+h4{
+  font-size: 26px;
+}
+.font-less2{
+  font-size: 24px;
+}
+h3{
+  font-size: 30px;
+}
+h2{
+  font-size:35px;
+}
+h1{
+  font-size:40px;
+}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .img-center {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+.under{
+  margin-left: 150px;
+  margin-top: 25px;
+}
+#about-me {
+  margin-left: 250px;
+  margin-top: -1200px;
+}
+
+h4{
+  font-size: 26px;
+}
+.font-less2{
+  font-size: 24px;
+}
+h3{
+  font-size: 30px;
+}
+h2{
+  font-size:35px;
+}
+h1{
+  font-size:40px;
+}
+   }
+
+@media only screen and (max-width: 770px) and (min-width: 560px){
+    .img-center {
+  display: block;
+  margin-left: 200%;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+.under{
+  margin-left: 190%;
+  margin-top: 25px;
+}
+#about-me {
+  margin-left: -150px;
+  margin-top: 1000px;
+
+}
+.center {
+  margin-left: 50px;
+  width: 80%;
+  padding: 10px;
 }
 }
