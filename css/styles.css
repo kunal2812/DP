@@ -2,13 +2,37 @@
 	min-height: 100px;
 	background:#fff;
 }
+#about-me {
+  margin-top: -700px;
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 23px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 18px;
+}
+h5{
+  font-size: 15px;
+}
+.font-less2{
+  font-size: 20px;
+}
 .navbar-brand{
-	font-size: 30px;
+	font-size: 23px;
 	letter-spacing: 1px;
 	margin-left: 50px;
 }
 .black-link{
   color: black;
+}
+.nav-link{
+  font-size: 12px;
 }
 .page-header{
   color:#fff;
@@ -28,8 +52,8 @@
   color:floralwhite;
 }
 .nav-item{
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .row{
   margin-left:5px;
@@ -89,7 +113,7 @@ body{
   height: 120px;
 }
 .info-txt{
-  margin-left: -47px;
+  margin-left: -28px;
   margin-right: 20px;
 }
 .center {
@@ -142,13 +166,17 @@ h1{
 .text-adj{
   width: 200%;
 }
+.icon1{
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
 .icon2{
-  margin-top: -33px;
+  margin-top: -42px;
   margin-left: 50px;
   margin-bottom: 20px;
 }
 .icon3{
-  margin-top: -57px;
+  margin-top: -46px;
   margin-left: 100px;
   margin-bottom: 20px;
 }
@@ -164,7 +192,7 @@ h1{
   and (-webkit-min-device-pixel-ratio: 1.5) {
     .img-center {
   display: block;
-  margin-left: 300px;
+  margin-left: 310px;
   margin-right: auto;
   width: 150px;
   height: 150px;
@@ -173,12 +201,16 @@ h1{
   margin-left: 300px;
   margin-top: 25px;
 }
+#info-text{
+  margin-left: 500px;
+}
 #about-me {
   margin-left: 340px;
-  margin-top: -870px;
+  margin-top: -630px;
 }
 .icons{
-  margin-right:500px;
+  margin-right:50px;
+  margin-left: 20px;
 }
 
 h4{
@@ -197,26 +229,52 @@ h1{
   font-size:40px;
 }
 }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .img-center {
   display: block;
-  margin-left: 200px;
-  margin-right: auto;
+  margin-left: 220px;
   width: 150px;
   height: 150px;
+}
+#side-info{
+  margin-left: -35px;
+}
+.info-txt{
+  margin-left: 10px;
 }
 .under{
   margin-left: 150px;
   margin-top: 25px;
 }
 #about-me {
-  margin-left: 250px;
-  margin-top: -1200px;
+  margin-top: -165%; 
 }
-
+.sp{
+  font-size: 20px;
+}
+.icon1{
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+.icon2{
+  margin-top: -42px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.icon3{
+  margin-top: -46px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.icons{
+  margin-top: 25px;
+  margin-left: 40%;
+}
 h4{
   font-size: 26px;
+}
+h5{
+  font-size: 22px;
 }
 .font-less2{
   font-size: 24px;
@@ -231,7 +289,7 @@ h1{
   font-size:40px;
 }
    }
-
+/*
 @media only screen and (max-width: 770px) and (min-width: 560px){
     .img-center {
   display: block;
